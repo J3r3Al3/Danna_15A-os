@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación 15 Años</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url("foto.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      padding: 15px;
+      background: #cda61c;
+      border-bottom: 3px solid #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #1d3080;
+      margin: 0;
+    }
+
+    .video-container {
+      margin: 15px auto;
+      max-width: 95%;
+      border: 3px solid #1d3080;
+      border-radius: 15px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    video {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .invitacion {
+      margin: 20px auto;
+      max-width: 95%;
+      background: #cda61c;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .invitacion h2 {
+      color: #000000;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .invitacion p {
+      font-size: 1rem;
+      margin: 6px 0;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      font-size: 1rem;
+      color: white;
+      background: #1d3080;
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+    .boton:hover {
+      background: #cda61c;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 20px;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #ffffff;
+      background: #cda61c;
+      border-top: 2px solid #1d3080;
+    }
+
+    /* 📱 Adaptación para pantallas más grandes (tablets y PC) */
+    @media (min-width: 768px) {
+      header h1 { 
+        font-size: 2.5rem;
+      }
+      .invitacion h2 {
+        font-size: 2rem;
+      }
+      .invitacion p {
+        font-size: 1.2rem;
+      }
+      .boton {
+        font-size: 1.2rem;
+        padding: 15px 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mis 15 Años 💖</h1>
+  </header>
+
+  <section class="video-container">
+    <!-- Cambia "video.mp4" por tu video -->
+    <video src="15_años.mp4" autoplay muted controls loop></video>
+  </section>
+
+  <section class="invitacion">
+    <h2>Con gran alegría, te invito a celebrar mis 15 años</h2>
+    <p>👗 Danna Valentina</p>
+    <p>📅 Fecha: 13 de Septiembre, 2025</p>
+    <p>📍 Salón de Eventos "Los Cactus"</p>
+    <p>🕒 Hora: 5:00 PM</p>
+
+    <!-- Cambia el número por el tuyo -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfJghNx47bdhq7YDeyIW7jcxxa32JnrKuM56V2uLYSDfUnqg/viewform" 
+       class="boton" target="_blank">
+       Confirmar asistencia
+    </a>
+  </section>
+
+  <footer>
+    Con cariño 💕 esperamos contar con tu presencia.
+  </footer>
+</body>
+</html>
